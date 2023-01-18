@@ -13,4 +13,3 @@ const server = http.createServer(
 // サーバーを起動してリクエストを待ち受け状態にする
 server.listen(port);
 // ログを出力する
-console.log(`http://localhost:${port} へアクセスください`);
